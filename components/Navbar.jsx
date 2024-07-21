@@ -123,7 +123,7 @@ const Navbar = () => {
       <div className="desktop-nav">
         <div className="logo shrink">
           <Link href="#home" onClick={handleScroll}>
-            <img src="/images/navbar/nav_logo_2.png" alt="hack the space" />
+            <img src="./images/navbar/nav_logo_2.png" alt="hack the space" />
           </Link>
         </div>
         <div className="links">

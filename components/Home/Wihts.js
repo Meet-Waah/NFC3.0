@@ -40,7 +40,7 @@ const Wihts = () => {
           </div>
           {/* <div className="asrt">
             <img
-              src="/images/images/yoda.png"
+              src="./images/images/yoda.png"
               alt="Hack the space Hackathon planet"
               // style={{height:"200px"}}
             />

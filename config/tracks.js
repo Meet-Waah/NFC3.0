@@ -1,7 +1,7 @@
 export const trackConfig = [
   {
     id: "1",
-    logo: "/images/sponsor/Polygon_Logo-Colored@2x.png",
+    logo: "./images/sponsor/Polygon_Logo-Colored@2x.png",
     data: [
       "₹10,000 for the best hack built on Ethereum, or",
       "₹15,000 for the best hack built on Ethereum + Polygon",
@@ -11,7 +11,7 @@ export const trackConfig = [
   },
   {
     id: "2",
-    logo: "/images/sponsor/Replit-Dark-Background.png",
+    logo: "./images/sponsor/Replit-Dark-Background.png",
     data: [
       "$50 to winning project of the hackathon (must be deployed on Replit)",
       "Replit schwags to 5 eligible submissions deployed on Replit.",
@@ -21,7 +21,7 @@ export const trackConfig = [
   },
   {
     id: "3",
-    logo: "/images/sponsor/Solana Dark.png",
+    logo: "./images/sponsor/Solana Dark.png",
     data: [
       "young gun - $USDC 100 for the best project beginners",
       "rising teknoking - $USDC 250 for the best project",

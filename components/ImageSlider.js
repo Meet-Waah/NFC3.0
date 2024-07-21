@@ -141,22 +141,22 @@ const App = () => {
           <Input type="radio" name="slider" id="s6" checked={currentSlide === 6} readOnly />
 
           <Label htmlFor="s1" id="slide1">
-            <img src="/images/pirates/slider/A.jpg" alt="Slide 1" />
+            <img src="./images/pirates/slider/A.jpg" alt="Slide 1" />
           </Label>
           <Label htmlFor="s2" id="slide2">
-            <img src="/images/pirates/slider/B.jpg" alt="Slide 2" />
+            <img src="./images/pirates/slider/B.jpg" alt="Slide 2" />
           </Label>
           <Label htmlFor="s3" id="slide3">
-            <img src="/images/pirates/slider/C.jpg" alt="Slide 3" />
+            <img src="./images/pirates/slider/C.jpg" alt="Slide 3" />
           </Label>
           <Label htmlFor="s4" id="slide4">
-            <img src="/images/pirates/slider/D.jpg" alt="Slide 4" />
+            <img src="./images/pirates/slider/D.jpg" alt="Slide 4" />
           </Label>
           <Label htmlFor="s5" id="slide5">
-            <img src="/images/pirates/slider/E.jpg" alt="Slide 5" />
+            <img src="./images/pirates/slider/E.jpg" alt="Slide 5" />
           </Label>
           <Label htmlFor="s6" id="slide6">
-            <img src="/images/pirates/slider/F.jpg" alt="Slide 6" />
+            <img src="./images/pirates/slider/F.jpg" alt="Slide 6" />
           </Label>
         </Slider>
       </SliderWrapper>

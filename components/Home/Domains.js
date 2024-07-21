@@ -65,7 +65,7 @@ const Domains = () => {
       </div>
       {/* <div className="aconst1">
         <Image
-          src="/images/images/star.png"
+          src="./images/images/star.png"
           alt="hack the space const"
           className="opaque8"
           width={300}
@@ -75,7 +75,7 @@ const Domains = () => {
 
       <div className="aconst3">
         <Image
-          src="/images/images/darth.png"
+          src="./images/images/darth.png"
           alt="hack the space const"
           className="opaque8"
           width={300}

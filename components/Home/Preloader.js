@@ -213,7 +213,7 @@ const Preloader = () => {
       <div id="preloader">
         <div className="wheelCont">
           <img
-            src="/images/pirates/wheel1.png"
+            src="./images/pirates/wheel1.png"
             alt="Wheel"
             className="wheel"
             style={{ transform: `rotate(${progress * 3.6}deg)` }}

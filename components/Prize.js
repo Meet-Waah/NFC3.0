@@ -243,7 +243,7 @@ const Prize = () => {
         <PricingTable>
           <PricingPlan className="silver">
             <PlanHeader>
-              <TrophyImage src="/images/pirates/Trophy/Silver_Trophy.png" alt="Second Prize Trophy" />
+              <TrophyImage src="./images/pirates/Trophy/Silver_Trophy.png" alt="Second Prize Trophy" />
               <PlanTitle>2nd Prize</PlanTitle>
               <PlanPrice>Rs 20000</PlanPrice>
             </PlanHeader>
@@ -251,7 +251,7 @@ const Prize = () => {
 
           <PricingPlan className="gold">
             <PlanHeader>
-              <TrophyImage src="/images/pirates/Trophy/Golden_Trophy.png" alt="First Prize Trophy" />
+              <TrophyImage src="./images/pirates/Trophy/Golden_Trophy.png" alt="First Prize Trophy" />
               <PlanTitle>1st Prize</PlanTitle>
               <PlanPrice>Rs 30000</PlanPrice>
             </PlanHeader>
@@ -259,7 +259,7 @@ const Prize = () => {
 
           <PricingPlan className="bronze">
             <PlanHeader>
-              <TrophyImage src="/images/pirates/Trophy/Bronze_Trophy.png" alt="Third Prize Trophy" />
+              <TrophyImage src="./images/pirates/Trophy/Bronze_Trophy.png" alt="Third Prize Trophy" />
               <PlanTitle>3rd Prize</PlanTitle>
               <PlanPrice>Rs 15000</PlanPrice>
             </PlanHeader>
