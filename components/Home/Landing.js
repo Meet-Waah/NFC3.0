@@ -41,7 +41,7 @@ const Landing = () => {
   return (
     <section id="home" className={styles.home}>
       <video className={styles.backgroundVideo} autoPlay loop muted>
-        <source src="./images/video/Website Visuals.mp4" type="video/mp4" />
+        <source src="./images/video/newtry.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="overlay">
