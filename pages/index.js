@@ -6,7 +6,6 @@ import FAQS from "../components/FAQS";
 import Domains from "../components/Home/Domains";
 import Wihts from "../components/Home/Wihts";
 import Journey from "../components/Home/Journey";
-
 import Venue from "../components/Home/Venue";
 import Sponsor from "../components/Sponsor";
 import CountdownTimer from "../components/CountdownTimer"; 
@@ -48,12 +47,8 @@ const index = () => {
 
     <div >
     <Layout>
-      {/* Animation */}
-      {/* <Preloader /> */}
       <Landing />
-      {/* <Countdown /> */}
       {isMounted && <CountdownTimer targetDate={targetDate} />}
-      {/* About */}
       <Wihts />
       <Journey />
       <ImageSlider/>
@@ -61,11 +56,7 @@ const index = () => {
       <Schedule />
       <Prize/>
       <Venue />
-      
-      {/* <Tracks /> */}
-      {/* <Sponsor /> */}
-      {/* <WhySponsor /> */}
-      {/* <Organiser /> */}
+      {/* <Sponsor /> */} 
       <FAQS />
     </Layout>
       </div>
