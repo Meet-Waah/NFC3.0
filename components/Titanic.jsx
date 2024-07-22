@@ -105,7 +105,7 @@ const Titanic = () => {
           position: fixed;
           top: 0;
           left: 0;
-          background: radial-gradient(at top center, rgba(0, 51, 61, 0.9) 0%, rgba(0,0,0,1) 80%);
+          background: radial-gradient(at top center, rgba(0, 51, 90, 0.9) 0%, rgba(0,0,0,1) 80%);
         }
         #content {
           position: absolute;

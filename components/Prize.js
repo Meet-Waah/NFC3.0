@@ -58,14 +58,21 @@ const Container = styled.div`
 `;
 
 const PricingTitle = styled.h1`
-  font-size: 80px;
+  ${'' /* font-size: 80px;
   margin-bottom: 40px;
   position: relative;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
   overflow: hidden;
-  display: inline-block;
+  display: inline-block; */}
+
+  font-size: 2.6rem;
+  margin-bottom: 40px;
+  line-height: 3.2rem;
+  letter-spacing: 0.08em;
+  font-family: "Montserrat", sans-serif !important;
+  color: #FFDE06;
 
   &::before,
   &::after {

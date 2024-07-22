@@ -7,7 +7,7 @@ const Footer = () => {
       <footer id="contact" className="footer-section" style={{ color: "#fff" }}>
         <div className="imgHolder">
           <img
-            src="./images/lol.png"
+            src="./images/pirates/logo01.png"
             alt="Hack the space Hackathon planet"
           />
         </div>

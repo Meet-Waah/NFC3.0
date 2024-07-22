@@ -31,7 +31,7 @@ const FAQS = () => {
           </ColComponent>
         ))}
       </div>
-      <div className="planet1">
+      {/* <div className="planet1">
         <img
           src="./images/planet1.svg"
           alt="hack the space const"
@@ -49,7 +49,7 @@ const FAQS = () => {
           width={300}
           height={300}
         />
-      </div>
+      </div> */}
     </SectionLayout>
   );
 };
