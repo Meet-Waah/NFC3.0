@@ -28,7 +28,7 @@ export const scheduleConfig = {
         {
           id: "4",
           Direction: "right",
-          Img: "./images/pirates/schedule/problemstat.png",
+          Img: "./images/pirates/schedule/lol.png",
           Time: "11:00 AM",
           Description: "Hackathon Begins",
         },
