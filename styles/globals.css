@@ -25,7 +25,14 @@
   font-family: "Poppins", sans-serif;
   /* overflow-x:clip; */
   scroll-behavior: smooth;
-   font-family: 'Pirata One', cursive; /*  Default font of text */
+  font-family: 'Pirata One', cursive; /* Default font of text */
+}
+
+/* Media query for devices with a max width of 600px (typically phones) */
+@media (max-width: 600px) {
+  * {
+    font-family: "Poppins", sans-serif; /* Change to non-cursive font for phones */
+  }
 }
 
 :root {
