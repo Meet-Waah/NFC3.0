@@ -18,8 +18,8 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
             rel="stylesheet"
           />
-
           <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />
