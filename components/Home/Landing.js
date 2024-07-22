@@ -91,7 +91,7 @@ const Landing = () => {
 
           <div className="butHolder">
             <button type="button" className="Btn zinc-bg">
-              <a href="" target="_blank">
+              <a href="#" target="_blank"> {/* Change the href once devfolio link is activated */}
                 <div className="gradient-mask blue-bg"></div>
                 <span className="text" style={{ color: "white", fontSize: 16 }}>
                   Apply with Devfolio
@@ -107,7 +107,7 @@ const Landing = () => {
           /> */}
         </div>
       </div>
-      <Script src=".https://apply.devfolio.co/v2/sdk.js" async defer />
+      {/* <Script src=".https://apply.devfolio.co/v2/sdk.js" async defer /> */}
     </section>
   );
 };

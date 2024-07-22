@@ -9,7 +9,7 @@ import Journey from "../components/Home/Journey";
 
 import Venue from "../components/Home/Venue";
 import Sponsor from "../components/Sponsor";
- import CountdownTimer from "../components/CountdownTimer"; 
+import CountdownTimer from "../components/CountdownTimer"; 
 import "animate.css";
 import Preloader from "../components/Home/Preloader";
 import ImageSlider from "../components/ImageSlider";
