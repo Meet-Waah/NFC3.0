@@ -43,7 +43,7 @@ const Venue = () => {
           ></iframe>
         </div>
       </div>
-      <div className="aconst6">
+      {/* <div className="aconst6">
         <img
           src="./images/aconst6.svg"
           alt="hack the space const"
@@ -51,7 +51,7 @@ const Venue = () => {
           width={300}
           height={300}
         />
-      </div>
+      </div> */}
     </SectionLayout>
   );
 };

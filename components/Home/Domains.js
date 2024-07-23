@@ -57,7 +57,7 @@ const Domains = () => {
           
         </div>
       </div>
-      <div className="pattern7">
+      {/* <div className="pattern7">
         <img
           src="./images\Constillations\Moon.svg"
           alt="hack the space const"
@@ -65,7 +65,7 @@ const Domains = () => {
           width={300}
           height={300}
         />
-      </div>
+      </div> */}
     </section>
   );
 };

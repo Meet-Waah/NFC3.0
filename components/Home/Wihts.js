@@ -47,7 +47,7 @@ const Wihts = () => {
           </div> */}
         </div>
       </div>
-      <div className="aconst1">
+      {/* <div className="aconst1">
         <img
           src="./images/aconst5.svg"
           alt="hack the space const"
@@ -55,8 +55,8 @@ const Wihts = () => {
           width={300}
           height={300}
         />
-      </div>
-      <div className="pattern2">
+      </div> */}
+      {/* <div className="pattern2">
         <img
           src="./images/pattern6.svg"
           alt="hack the space const"
@@ -64,7 +64,7 @@ const Wihts = () => {
           width={300}
           height={300}
         />
-      </div>
+      </div> */}
     </section>
   );
 };
