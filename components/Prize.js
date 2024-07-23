@@ -233,6 +233,10 @@ const PlanPrice = styled.p`
     font-size: 18px;
     color: rgba(255, 255, 255, 0.7);
   }
+
+  @media (max-width: 768px){
+    font-size: 30px;
+  }
 `;
 
 const TrophyImage = styled.img`
@@ -245,8 +249,10 @@ const Prize = () => {
   return (
     <>
       <GlobalStyle />
+      
       <Container>
-        <PricingTitle data-text="Prizes">Prizes</PricingTitle>
+        <div  ></div>
+        <PricingTitle data-text="Prizes" >Prizes</PricingTitle>
         <PricingTable>
           <PricingPlan className="silver">
             <PlanHeader>

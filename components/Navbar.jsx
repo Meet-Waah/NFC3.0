@@ -37,6 +37,9 @@ const Navbar = () => {
           <Link href="#schedule" onClick={handleScroll}>
             Schedule
           </Link>
+          <Link href="#prize" onClick={handleScroll}>
+            Prize
+          </Link>
           <Link href="#sponsors" onClick={handleScroll}>
             Sponsors
           </Link>
@@ -136,6 +139,9 @@ const Navbar = () => {
           {/* <!-- <Link href="#">Prizes</Link > --> */}
           <Link href="#schedule" onClick={handleScroll}>
             Schedule
+          </Link>
+          <Link href="#prize" onClick={handleScroll}>
+            Prizes
           </Link>
           <Link href="#sponsors" onClick={handleScroll}>
             Sponsors

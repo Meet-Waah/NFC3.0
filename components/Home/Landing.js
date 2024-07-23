@@ -89,12 +89,22 @@ const Landing = () => {
             Mumbai, Maharashtra
           </p>
 
+          {/* <div className="butHolder">
+            <button type="button" className="Btn zinc-bg">
+              <a href="#" target="_blank"> 
+                <div className="gradient-mask blue-bg"></div>
+                <span className="text" style={{ color: "white", fontSize: 16 }}>
+                  Apply with Devfolio
+                </span>
+              </a>
+            </button>
+          </div> */}
           <div className="butHolder">
             <button type="button" className="Btn zinc-bg">
               <a href="#" target="_blank"> {/* Change the href once devfolio link is activated */}
                 <div className="gradient-mask blue-bg"></div>
-                <span className="text" style={{ color: "white", fontSize: 16 }}>
-                  Apply with Devfolio
+                <span className="text" style={{ color: "white", fontSize: 16, marginLeft:"-25px",width:"250px" }}>
+                  Registration starting soon...
                 </span>
               </a>
             </button>

@@ -29,7 +29,10 @@ const Schedule = () => {
           </Day>
         ))}
       </div>
+      {/* Navbar section mai prize ka jugaad */}
+      <div id="prize"></div> 
     </SectionLayout>
+    
   );
 };
 

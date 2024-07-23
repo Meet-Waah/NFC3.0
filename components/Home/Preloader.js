@@ -6,17 +6,17 @@ const Preloader = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setProgress((prevProgress) => {
-        if (prevProgress >= 100) {
+        if (prevProgress >= 200) {
           clearInterval(interval);
           return 100;
         }
-        return prevProgress + 8;
+        return prevProgress + 15;
       });
     }, 400);
   }, []);
 
   useEffect(() => {
-    if (progress >= 100) {
+    if (progress >= 200) {
       document.getElementById("preloader").style.display = "none";
     }
   }, [progress]);
@@ -153,7 +153,7 @@ const Preloader = () => {
         @media (max-width: 768px) {
           #preloader {
             position: fixed;
-            bottom: 10px;
+            bottom: 50px;
             right: 10px;
             width: 0px;
             height: 10vh;
@@ -183,12 +183,12 @@ const Preloader = () => {
             width: 10px;
            }
           .textCon {
-            position: relative;
+            position: fixed;
             width: 500px;
             justify-self: center;
             align-self: start;
             padding-top: 50%;
-            top: 0%;
+            top:10%;
           }
           .textCon h1 {
             font-size: 4em;
@@ -197,7 +197,7 @@ const Preloader = () => {
             position: fixed;
             width: 10vw;
             height: 10vw;
-            bottom: 50%;
+            bottom: 40%;
             left: 32%;
           }
           .wheel {
